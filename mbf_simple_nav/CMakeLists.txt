@@ -20,7 +20,7 @@ find_package(catkin REQUIRED
   tf2_ros
   )
 
-find_package(Boost COMPONENTS thread chrono REQUIRED)
+find_package(Boost REQUIRED)
 
 set(MBF_SIMPLE_SERVER_LIB mbf_simple_server)
 set(MBF_SIMPLE_SERVER_NODE mbf_simple_nav)

@@ -18,7 +18,7 @@ find_package(catkin REQUIRED
   tf
 )
 
-find_package(Boost COMPONENTS thread chrono REQUIRED)
+find_package(Boost REQUIRED)
 
 # dynamic reconfigure
 generate_dynamic_reconfigure_options(
